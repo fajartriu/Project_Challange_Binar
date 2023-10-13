@@ -1,0 +1,74 @@
+
+c
+java:S1192>"HDefine a constant instead of duplicating this literal "       " 6 times.(Ëô ïúÿÿÿÿ
+x
+java:S1192D"bDefine a constant instead of duplicating this literal "-------------------------------+
+" 6 times.(ûŒòù
+n
+java:S1192E"SDefine a constant instead of duplicating this literal "Total             " 6 times.(º™ÿ·ùÿÿÿÿ
+b
+java:S1192<"GDefine a constant instead of duplicating this literal "      " 6 times.(Ëô ïúÿÿÿÿ
+s
+java:S1192
+"]Define a constant instead of duplicating this literal "==========================
+" 10 times.(©´ã
+~
+java:S13193"hThe type of "menuName" should be an interface such as "List" rather than the implementation "ArrayList".(ˆ”Ë´
+~
+java:S13193"hThe type of "quantity" should be an interface such as "List" rather than the implementation "ArrayList".(ˆ”Ë´
+~
+java:S13193"hThe type of "subTotal" should be an interface such as "List" rather than the implementation "ArrayList".(ˆ”Ë´
+~
+java:S1319V"hThe type of "menuName" should be an interface such as "List" rather than the implementation "ArrayList".(Ú„§ô
+~
+java:S1319V"hThe type of "quantity" should be an interface such as "List" rather than the implementation "ArrayList".(Ú„§ô
+~
+java:S1319V"hThe type of "subTotal" should be an interface such as "List" rather than the implementation "ArrayList".(Ú„§ô
+ƒ
+java:S1319x"hThe type of "menuName" should be an interface such as "List" rather than the implementation "ArrayList".(Ó¦™ÿÿÿÿÿ
+ƒ
+java:S1319x"hThe type of "quantity" should be an interface such as "List" rather than the implementation "ArrayList".(Ó¦™ÿÿÿÿÿ
+ƒ
+java:S1319x"hThe type of "subTotal" should be an interface such as "List" rather than the implementation "ArrayList".(Ó¦™ÿÿÿÿÿ
+v
+java:S1488*"[Immediately return this expression instead of assigning it to the temporary variable "qty".(Š¬©ùÿÿÿÿ
+v
+java:S1488/"`Immediately return this expression instead of assigning it to the temporary variable "subTotal".(ß¡‚Ê
+u
+java:S1488R"_Immediately return this expression instead of assigning it to the temporary variable "inpUser".(¾‰Ü”
+^
+java:S2095z"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(à¢ÈÇ
+@	java:S106
+"+Replace this use of System.out by a logger.(©´ã
+H
+java:S6126
+"2Replace this String concatenation with Text block.(©´ã
+Q	java:S125"<This block of commented-out lines of code should be removed.( Õá¥
+@	java:S106!"+Replace this use of System.out by a logger.(©´ã
+@	java:S106)"+Replace this use of System.out by a logger.(’¨‚
+@	java:S1064"+Replace this use of System.out by a logger.(©´ã
+H
+java:S61264"2Replace this String concatenation with Text block.(©´ã
+E	java:S106<"+Replace this use of System.out by a logger.(Ëô ïúÿÿÿÿ
+E	java:S106>"+Replace this use of System.out by a logger.(Ëô ïúÿÿÿÿ
+@	java:S106D"+Replace this use of System.out by a logger.(ûŒòù
+@	java:S106G"+Replace this use of System.out by a logger.(ûŒòù
+@	java:S106N"+Replace this use of System.out by a logger.(¡©Îí
+H
+java:S6126N"2Replace this String concatenation with Text block.(¡©Îí
+@	java:S106W"+Replace this use of System.out by a logger.(©´ã
+H
+java:S6126W"2Replace this String concatenation with Text block.(©´ã
+E	java:S106b"+Replace this use of System.out by a logger.(Ëô ïúÿÿÿÿ
+E	java:S106d"+Replace this use of System.out by a logger.(Ëô ïúÿÿÿÿ
+@	java:S106j"+Replace this use of System.out by a logger.(ûŒòù
+@	java:S106m"+Replace this use of System.out by a logger.(ûŒòù
+@	java:S106q"+Replace this use of System.out by a logger.(¹ê‰
+H
+java:S6126q"2Replace this String concatenation with Text block.(¹ê‰
+H
+java:S6126{"2Replace this String concatenation with Text block.(ô¸¸ã
+I
+java:S6126•"2Replace this String concatenation with Text block.(üÜÂ
+A	java:S106›"+Replace this use of System.out by a logger.(’ôÆà
+A	java:S106"+Replace this use of System.out by a logger.(Àûå 

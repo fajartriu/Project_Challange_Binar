@@ -1,0 +1,41 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(º£Þ·úÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(Ôí´Õúÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(ŸÃ‰íÿÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø¡ˆÅ
+d
+java:S1192"IDefine a constant instead of duplicating this literal "Es Jeruk" 4 times.(õš÷©ÿÿÿÿÿ
+g
+java:S1192"LDefine a constant instead of duplicating this literal "Nasi + Ayam" 4 times.(ÅŽ´œÿÿÿÿÿ
+b
+java:S1192"LDefine a constant instead of duplicating this literal "Nasi Goreng" 4 times.(¸Èãâ
+a
+java:S1192"KDefine a constant instead of duplicating this literal "Mie Goreng" 4 times.(‰û„Ñ
+h
+java:S1192"MDefine a constant instead of duplicating this literal "Es Teh Manis" 4 times.(ì¸Ò€þÿÿÿÿ
+h
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 49 to the 15 allowed.(Çµí‘
+R
+java:S1854,"<Remove this useless assignment to local variable "statBack".(±¼´é
+R
+java:S18548"<Remove this useless assignment to local variable "statBack".(±¼´é
+R
+java:S1854D"<Remove this useless assignment to local variable "statBack".(±¼´é
+R
+java:S1854P"<Remove this useless assignment to local variable "statBack".(±¼´é
+R
+java:S1854\"<Remove this useless assignment to local variable "statBack".(±¼´é
+R
+java:S1854m"<Remove this useless assignment to local variable "statBack".(±¼´é
+A
+java:S1481"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ
+E	java:S106 "+Replace this use of System.out by a logger.(ÁçÕŠùÿÿÿÿ
+E	java:S106""+Replace this use of System.out by a logger.(ì™¥ûÿÿÿÿ
+Ý
+java:S6541
+"ÆA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 101 to 64, Complexity from 23 to 14, Nesting Level from 4 to 2, Number of Variables from 22 to 6.(Çµí‘
