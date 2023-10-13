@@ -1,0 +1,10 @@
+
+Y
+java:S4973D"<Strings and Boxed types should be compared using "equals()".(è ˜Ì8»ÄÖ­¯1
+^
+java:S4973L"<Strings and Boxed types should be compared using "equals()".(‡‘üÿÿÿÿ8»ÄÖ­¯1
+G	java:S1061"+Replace this use of System.out by a logger.(àŸ¾Œ8™ÆÖ­¯1
+G	java:S1065"+Replace this use of System.out by a logger.(ÕÀˆë8šÆÖ­¯1
+]	java:S125o"<This block of commented-out lines of code should be removed.(éÅ¿òûÿÿÿÿ8´ûá±¯1
+G	java:S106v"+Replace this use of System.out by a logger.(×•ƒå8©ÆÖ­¯1
+G	java:S106x"+Replace this use of System.out by a logger.(Àûå 8ªÆÖ­¯1

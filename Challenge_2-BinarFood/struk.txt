@@ -1,0 +1,24 @@
+=====================================
+              BinarFud
+=====================================
+
+Terima kasih sudah memesan di
+Binarfud
+
+Dibawah ini adalah pesanan anda
+
+Nasi + Ayam       1     18000  18000
+Nasi Goreng       5     15000  75000
+Mie Goreng        4     13000  52000
+
+-------------------------------------+
+Total             10           145000
+
+Notes : 
+1 Nasi + Ayam Pedas5 Nasi Goreng Pedas4 Mie Goreng Sedang
+Pembayaran : BinarCash
+
+=====================================
+Simpan struk ini sebagai bukti
+pembayaran
+=====================================

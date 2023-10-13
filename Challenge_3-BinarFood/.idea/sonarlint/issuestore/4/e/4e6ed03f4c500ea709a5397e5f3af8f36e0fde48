@@ -1,0 +1,42 @@
+
+r
+java:S1104"UMake menuFoods a static final constant or non-public and provide accessors if needed.( Ÿ£8„÷¥«¯1
+x
+java:S1104	"VMake menuDrinks a static final constant or non-public and provide accessors if needed.(çÀÙüùÿÿÿÿ8„÷¥«¯1
+r
+java:S1104
+"UMake menuItems a static final constant or non-public and provide accessors if needed.(¡•…û8–à§­¯1
+q
+java:S1104"VMake orderItems a static final constant or non-public and provide accessors if needed.(Ü°£”úÿÿÿÿ
+n
+java:S1104"XMake notesMakanan a static final constant or non-public and provide accessors if needed.(¿ßäÍ
+s
+java:S1104"XMake notesMinuman a static final constant or non-public and provide accessors if needed.(¶‚ñ±ıÿÿÿÿ
+f
+java:S1104"QMake notes a static final constant or non-public and provide accessors if needed.(²Í’
+L
+java:S1444"/Make this "public static menuFoods" field final( Ÿ£8…÷¥«¯1
+R
+java:S1444	"0Make this "public static menuDrinks" field final(çÀÙüùÿÿÿÿ8…÷¥«¯1
+L
+java:S1444
+"/Make this "public static menuItems" field final(¡•…û8—à§­¯1
+K
+java:S1444"0Make this "public static orderItems" field final(Ü°£”úÿÿÿÿ
+H
+java:S1444"2Make this "public static notesMakanan" field final(¿ßäÍ
+M
+java:S1444"2Make this "public static notesMinuman" field final(¶‚ñ±ıÿÿÿÿ
+@
+java:S1444"+Make this "public static notes" field final(²Í’
+3
+java:S2386"Make this member "protected".( Ÿ£
+?
+java:S2386	"Make this member "protected".(çÀÙüùÿÿÿÿ8¢‡¥«¯1
+:
+java:S2386
+"Make this member "protected".(¡•…û8ï³¦­¯1
+8
+java:S2386"Make this member "protected".(Ü°£”úÿÿÿÿ
+2
+java:S2386"Make this member "protected".(²Í’
