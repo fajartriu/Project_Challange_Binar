@@ -6,14 +6,12 @@ Terima kasih sudah memesan di Binarfud
 
 Dibawah ini adalah pesanan anda
 
-Jeruk Panas             1     5000   5000
-Mie Goreng Pedas        1     13000  13000
+Mie Goreng Pedas        11    13000  143000
 Nasi + Ayam Pedas       1     18000  18000
 Nasi Goreng Pedas       1     15000  15000
-Teh Manis Panas         1     3000   3000
 
 --------------------------------------------+
-Total                   5            54000
+Total                   13           176000
 
 Pembayaran : BinarCash
 
