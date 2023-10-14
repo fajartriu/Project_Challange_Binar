@@ -9,6 +9,9 @@
         <module name="Challenge_3-BinarFood" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Challenge__2" target="20" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -27,11 +27,11 @@ public class UsersController {
         user.add(Optional.of((kokom)));
 
         for (Optional<Users> users: user){
-            add(users);
+            add(users.get());
         }
     }
 
-    public void add(Optional<Users> user){
+    public void add(Users user){
         usersService.create(user);
     }
 

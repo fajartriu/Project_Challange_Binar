@@ -15,8 +15,7 @@ public class UsersService {
     }
 
     //Error buat create
-    public void create(Optional<Users> user) {
-        user.get();
+    public void create(Users user) {
         usersRepository.save(user);
     }
 }
