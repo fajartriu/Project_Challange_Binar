@@ -15,8 +15,8 @@ import project.Challenge_4BinarFood.entity.Product;
 import project.Challenge_4BinarFood.model.product.CreateProductRequest;
 import project.Challenge_4BinarFood.response.ProductResponse;
 import project.Challenge_4BinarFood.response.ProductUpdateResponse;
-import project.Challenge_4BinarFood.respository.MerchantRepository;
-import project.Challenge_4BinarFood.respository.ProductRepository;
+import project.Challenge_4BinarFood.repository.MerchantRepository;
+import project.Challenge_4BinarFood.repository.ProductRepository;
 
 import java.util.*;
 

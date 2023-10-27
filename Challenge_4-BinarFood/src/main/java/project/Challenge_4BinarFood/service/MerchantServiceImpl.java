@@ -9,7 +9,7 @@ import project.Challenge_4BinarFood.entity.Merchant;
 import project.Challenge_4BinarFood.model.merchant.CreateMerchantRequest;
 import project.Challenge_4BinarFood.model.merchant.GetAllOpenMerchantRequest;
 import project.Challenge_4BinarFood.response.MerchantResponse;
-import project.Challenge_4BinarFood.respository.MerchantRepository;
+import project.Challenge_4BinarFood.repository.MerchantRepository;
 
 import java.util.*;
 

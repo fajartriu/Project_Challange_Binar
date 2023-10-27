@@ -1,20 +1,9 @@
 package project.Challenge_4BinarFood.service;
 
-import jakarta.transaction.Transactional;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import org.springframework.web.server.ResponseStatusException;
-import project.Challenge_4BinarFood.entity.Merchant;
-import project.Challenge_4BinarFood.entity.Product;
 import project.Challenge_4BinarFood.model.product.CreateProductRequest;
 import project.Challenge_4BinarFood.response.ProductResponse;
 import project.Challenge_4BinarFood.response.ProductUpdateResponse;
-import project.Challenge_4BinarFood.respository.MerchantRepository;
-import project.Challenge_4BinarFood.respository.ProductRepository;
 
 import java.util.*;
 

@@ -10,7 +10,7 @@ import org.springframework.web.server.ResponseStatusException;
 import project.Challenge_4BinarFood.entity.Users;
 import project.Challenge_4BinarFood.model.users.CreateUsersRequest;
 import project.Challenge_4BinarFood.response.UsersResponse;
-import project.Challenge_4BinarFood.respository.UsersRepository;
+import project.Challenge_4BinarFood.repository.UsersRepository;
 
 import java.util.*;
 

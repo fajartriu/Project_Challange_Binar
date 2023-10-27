@@ -1,4 +1,4 @@
-package project.Challenge_4BinarFood.respository;
+package project.Challenge_4BinarFood.repository;
 
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;
