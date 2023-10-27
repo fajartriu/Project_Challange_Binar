@@ -1611,3 +1611,41 @@ org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as express
 2023-10-27 14:52:46,497 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-10-27 14:52:46,505 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-10-27 14:52:46,510 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-27 15:40:36,469 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-10-27 15:40:36,537 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Challenge4BinarFoodApplication using Java 21 with PID 5716 (B:\SYNRGY\Project_Challange_Binar\Challenge_4-BinarFood\target\classes started by AJAY in B:\SYNRGY\Project_Challange_Binar\Challenge_4-BinarFood)
+2023-10-27 15:40:36,540 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-27 15:40:36,643 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-27 15:40:36,644 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-27 15:40:37,720 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-27 15:40:37,805 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 76 ms. Found 5 JPA repository interfaces.
+2023-10-27 15:40:38,724 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-10-27 15:40:38,735 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-10-27 15:40:38,738 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-10-27 15:40:38,739 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-27 15:40:38,839 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-10-27 15:40:38,840 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2195 ms
+2023-10-27 15:40:39,083 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-27 15:40:39,206 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-10-27 15:40:39,209 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-10-27 15:40:39,578 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-27 15:40:39,623 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-10-27 15:40:39,829 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@317b2a6b
+2023-10-27 15:40:39,830 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-10-27 15:40:39,885 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-10-27 15:40:41,206 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-10-27 15:40:41,413 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-27 15:40:41,741 INFO o.s.d.j.r.q.QueryEnhancerFactory [restartedMain] Hibernate is in classpath; If applicable, HQL parser will be used.
+2023-10-27 15:40:42,658 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-27 15:40:42,817 INFO o.s.b.a.w.s.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-10-27 15:40:43,501 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-10-27 15:40:43,525 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-10-27 15:40:43,561 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-27 15:40:43,579 INFO o.s.b.StartupInfoLogger [restartedMain] Started Challenge4BinarFoodApplication in 8.128 seconds (process running for 10.265)
+2023-10-27 15:41:16,448 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-27 15:41:16,449 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-10-27 15:41:16,450 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-10-27 15:41:16,741 INFO p.C.s.MerchantServiceImpl [http-nio-8080-exec-1] Data merchant has been created project.Challenge_4BinarFood.entity.Merchant@59bfda3c
+2023-10-27 15:41:35,755 INFO p.C.s.MerchantServiceImpl [http-nio-8080-exec-3] Data response success [MerchantResponse(id=e30187a1-0aaf-4280-ac4b-31bd8f09cd87, merchantName=Pizza Hut, merchantLocation=Bali, open=true), MerchantResponse(id=04bd5815-8d8b-4456-a83f-030d6c991259, merchantName=Pizza Hut, merchantLocation=Lombok, open=true), MerchantResponse(id=b2258b4d-79da-41a0-9e47-bea253514c09, merchantName=Pizza Hut, merchantLocation=Bandung, open=true), MerchantResponse(id=c2a94581-9192-4690-9bfa-2a7ea9a5fbd4, merchantName=Burger King, merchantLocation=Bandung, open=true), MerchantResponse(id=6225f7b8-4279-4903-b769-d0ff72e73c0c, merchantName=Burger King, merchantLocation=Bekasi, open=true), MerchantResponse(id=bf4bf7dc-8b72-4683-85f8-045c374a2f51, merchantName=Wing o Wing, merchantLocation=Bandung, open=true), MerchantResponse(id=1a787204-d50d-4f93-b4a4-0b7c04fdad76, merchantName=Wing o Wing, merchantLocation=Bali, open=true), MerchantResponse(id=60a9b7b0-8f75-4e10-b9f1-9586ceb22b12, merchantName=Wing o Wing, merchantLocation=Garut, open=true), MerchantResponse(id=3d83fecc-c498-4366-86b9-2120c705c8b4, merchantName=Dbesto, merchantLocation=Majalaya, open=true), MerchantResponse(id=87b94d49-6752-4287-bac0-b7e809ab4897, merchantName=Dbesto, merchantLocation=Bogor, open=true), MerchantResponse(id=2255fec0-0270-43ff-a426-8692eac547ba, merchantName=Dbesto, merchantLocation=Makasar, open=true), MerchantResponse(id=1fc0f9d2-583e-4169-a9ac-5cec165eb290, merchantName=Nasi Padang, merchantLocation=Makasar, open=true), MerchantResponse(id=9462cf66-4888-4855-afd6-e13941f35a98, merchantName=Rumah Makan Padang, merchantLocation=Makasar, open=true)]
+2023-10-27 16:03:24,477 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-27 16:03:24,607 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-27 16:03:24,728 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
