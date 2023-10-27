@@ -3,6 +3,7 @@ package project.Challenge_4BinarFood.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+import org.thymeleaf.TemplateEngine;
 import project.Challenge_4BinarFood.model.users.CreateUsersRequest;
 import project.Challenge_4BinarFood.response.ProductResponse;
 import project.Challenge_4BinarFood.response.ProductUpdateResponse;
@@ -19,6 +20,9 @@ import java.util.UUID;
 public class UsersController {
     @Autowired
     UsersService usersService;
+
+    @Autowired
+    TemplateEngine templateEngine;
 
     @PostMapping(
             path = "/api/users",
