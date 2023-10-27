@@ -9,10 +9,6 @@ Y
 -src/main/java/org/example/view/ErrorView.java,0\0\00e353796159a27ef1ed7be7b3653709bb0175e1
 ]
 -src/main/java/org/example/view/NotesView.java,b\d\bd8aee523e02013f85f2cb2de73050fca0bcc6a1
-_
-/src/main/java/org/example/model/OrderNotes.java,1\3\13e13c8c8c311c34185df78c33b5530357d8c720
-d
-4src/main/java/org/example/model/TotalOrderNotes.java,5\0\503ef8c829c092f1645214dc605a7bce0d54402e
 a
 1src/main/java/org/example/service/AppService.java,f\0\f021d85257fd5186733b276506bb15645cfb879e
 m
@@ -39,3 +35,5 @@ S
 #src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 9
 	struk.txt,5\d\5d348538eb87244f9b2f904a5a3b43d5d3dbe4ea
+e
+5src/main/java/org/example/service/PaymentService.java,a\c\acfe86d3857eb6dde34c4692212121ccb9d7806d

@@ -1,5 +1,6 @@
 package org.chalenge3.Challenge_3BinarFood;
 
+import org.chalenge3.Challenge_3BinarFood.controller.HomeController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Challenge3BinarFoodApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Challenge3BinarFoodApplication.class, args);
+		HomeController homeController = SpringApplication.run(Challenge3BinarFoodApplication.class, args)
+				.getBean(HomeController.class);
+		homeController.home();
 	}
 
 }

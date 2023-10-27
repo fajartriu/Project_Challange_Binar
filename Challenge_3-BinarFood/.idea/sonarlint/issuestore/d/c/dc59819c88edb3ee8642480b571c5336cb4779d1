@@ -1,0 +1,11 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÙÆ±Û
+P
+java:S1118":Add a private constructor to hide the implicit public one.(º«ê¨
+N
+java:S1172"3Remove this unused method parameter "merchantList".(°™£Èşÿÿÿÿ
+E	java:S106	"+Replace this use of System.out by a logger.(ŞµØæûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(øÿÓá
+@	java:S106"+Replace this use of System.out by a logger.(üèÇ
+@	java:S106"+Replace this use of System.out by a logger.(œ¹Ì
+E	java:S106"+Replace this use of System.out by a logger.(¶Ò¡üÿÿÿÿ

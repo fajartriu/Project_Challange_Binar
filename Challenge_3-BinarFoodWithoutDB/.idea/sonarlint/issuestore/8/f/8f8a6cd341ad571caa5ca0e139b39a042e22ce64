@@ -1,10 +1,30 @@
 
+r
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¹Ç¦ÿÿÿÿÿ8ƒªìµ1
+r
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¹Ç¦ÿÿÿÿÿ8ƒªìµ1
+l
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÕÆÌ8ƒªìµ1
+m
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ºÁÇ…8ƒªìµ1
+m
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(›Ã­ı8ƒªìµ1
+l
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÕÆÌ8ƒªìµ1
+r
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÒÍà‹ıÿÿÿÿ8ƒªìµ1
+r
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÒÍà‹ıÿÿÿÿ8ƒªìµ1
+m
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(›Ã­ı8ƒªìµ1
+m
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ºÁÇ…8‘ƒªìµ1
 @	java:S106	"+Replace this use of System.out by a logger.(¡¯ºÅ
 E	java:S106"+Replace this use of System.out by a logger.(ÂªÔœşÿÿÿÿ
 @	java:S106"+Replace this use of System.out by a logger.(µ£·Œ
-E	java:S106"+Replace this use of System.out by a logger.(¾ƒÔĞøÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(ÓÙÙ
-E	java:S106"+Replace this use of System.out by a logger.(À‚øÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(–õÆ¼ÿÿÿÿÿ
-@	java:S106"+Replace this use of System.out by a logger.(½“¾â
+E	java:S106"+Replace this use of System.out by a logger.(ÒÍà‹ıÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(ÕÆÌ
+E	java:S106"+Replace this use of System.out by a logger.(¹Ç¦ÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ºÁÇ…
+@	java:S106"+Replace this use of System.out by a logger.(›Ã­ı
 @	java:S106 "+Replace this use of System.out by a logger.(®ÖÉ

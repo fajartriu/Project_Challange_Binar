@@ -1,14 +1,24 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(É™üÿ8ø˜±¯1
-F	java:S106"+Replace this use of System.out by a logger.(°•Ş8ø˜±¯1
-L	java:S106"+Replace this use of System.out by a logger.(¢±Ú®şÿÿÿÿ8ø˜±¯1
-L	java:S106"+Replace this use of System.out by a logger.(­–´½øÿÿÿÿ8ø˜±¯1
-L	java:S106"+Replace this use of System.out by a logger.(ÏâÌ úÿÿÿÿ8‘ø˜±¯1
-L	java:S106"+Replace this use of System.out by a logger.(–Š†ÿÿÿÿÿ8‘ø˜±¯1
-L	java:S106""+Replace this use of System.out by a logger.(Òø©Ûÿÿÿÿÿ8“ø˜±¯1
-L	java:S106$"+Replace this use of System.out by a logger.(Òø©Ûÿÿÿÿÿ8”ø˜±¯1
-L	java:S106&"+Replace this use of System.out by a logger.(Òø©Ûÿÿÿÿÿ8•ø˜±¯1
-L	java:S106("+Replace this use of System.out by a logger.(Òø©Ûÿÿÿÿÿ8–ø˜±¯1
-G	java:S106."+Replace this use of System.out by a logger.(Êÿîí8˜ø˜±¯1
-L	java:S1060"+Replace this use of System.out by a logger.(Šà¼úúÿÿÿÿ8˜ø˜±¯1
-X	java:S1253"<This block of commented-out lines of code should be removed.(¬İıÔ8á¬Ê±¯1
+G	java:S106"+Replace this use of System.out by a logger.(É™üÿ8ø˜±¯1
+F	java:S106"+Replace this use of System.out by a logger.(°•Ş8ø˜±¯1
+L	java:S106"+Replace this use of System.out by a logger.(¢±Ú®şÿÿÿÿ8ø˜±¯1
+L	java:S106"+Replace this use of System.out by a logger.(­–´½øÿÿÿÿ8 ªìµ1
+L	java:S106"+Replace this use of System.out by a logger.(ÏâÌ úÿÿÿÿ8‘ø˜±¯1
+L	java:S106"+Replace this use of System.out by a logger.(–Š†ÿÿÿÿÿ8‘ø˜±¯1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8·ªìµ1
+N
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8¸ªìµ1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¹ªìµ1
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ºªìµ1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8»ªìµ1
+P
+java:S1128	".Remove this unused import 'org.example.model'.(°Ñ ñûÿÿÿÿ8»ªìµ1
+]
+java:S1128
+"@Remove this unused import 'org.example.service.MenuItemService'.(×ü¬Ê8»ªìµ1
+_
+java:S1128"=Remove this unused import 'org.example.service.NotesService'.(•µóøşÿÿÿÿ8¼ªìµ1

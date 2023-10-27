@@ -1,0 +1,43 @@
+2023-10-19 21:35:45,389 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Challenge3BinarFoodApplication using Java 17.0.2 with PID 18020 (B:\SYNRGY\Project_Challange_Binar\Challenge_3-BinarFood\Challenge_3-BinarFood\target\classes started by AJAY in B:\SYNRGY\Project_Challange_Binar\Challenge_3-BinarFood)
+2023-10-19 21:35:45,396 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-19 21:35:45,519 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-19 21:35:46,412 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 21:35:46,537 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 109 ms. Found 3 JPA repository interfaces.
+2023-10-19 21:35:47,242 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 21:35:47,395 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-19 21:35:47,399 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-10-19 21:35:47,659 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-10-19 21:35:47,943 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-19 21:35:47,994 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-10-19 21:35:48,325 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@46bb15c2
+2023-10-19 21:35:48,327 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-10-19 21:35:48,895 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-10-19 21:35:50,069 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 21:35:50,327 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 21:35:50,941 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-10-19 21:35:50,974 INFO o.s.b.StartupInfoLogger [restartedMain] Started Challenge3BinarFoodApplication in 6.831 seconds (process running for 8.905)
+2023-10-19 21:36:07,751 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 21:36:07,756 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-19 21:36:07,761 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-10-19 21:36:19,187 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Challenge3BinarFoodApplication using Java 17.0.2 with PID 1448 (B:\SYNRGY\Project_Challange_Binar\Challenge_3-BinarFood\Challenge_3-BinarFood\target\classes started by AJAY in B:\SYNRGY\Project_Challange_Binar\Challenge_3-BinarFood)
+2023-10-19 21:36:19,190 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-10-19 21:36:19,270 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-19 21:36:19,908 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-19 21:36:20,049 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 122 ms. Found 3 JPA repository interfaces.
+2023-10-19 21:36:20,554 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-19 21:36:20,626 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-10-19 21:36:20,631 INFO o.h.c.Environment [restartedMain] HHH000406: Using bytecode reflection optimizer
+2023-10-19 21:36:20,885 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-10-19 21:36:21,133 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-10-19 21:36:21,173 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-10-19 21:36:21,453 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@72186d0a
+2023-10-19 21:36:21,457 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-10-19 21:36:21,870 INFO o.h.b.i.BytecodeProviderInitiator [restartedMain] HHH000021: Bytecode provider name : bytebuddy
+2023-10-19 21:36:23,066 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-19 21:36:23,235 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 21:36:23,817 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-10-19 21:36:23,853 INFO o.s.b.StartupInfoLogger [restartedMain] Started Challenge3BinarFoodApplication in 5.62 seconds (process running for 7.221)
+2023-10-19 21:36:26,420 ERROR o.c.C.c.HomeController [restartedMain] java.util.InputMismatchException
+2023-10-19 21:36:26,427 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-19 21:36:26,432 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-10-19 21:36:26,443 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

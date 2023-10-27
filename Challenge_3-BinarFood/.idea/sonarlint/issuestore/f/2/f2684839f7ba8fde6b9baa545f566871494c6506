@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼»ç›ûÿÿÿÿ
+j	java:S116"URename this field "order_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿú¾
+s	java:S116"^Rename this field "destination_address" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙÙÃü
+Z
+java:S1128"?Remove this unused import 'jakarta.validation.constraints.Max'.(‹²Ÿ—şÿÿÿÿ

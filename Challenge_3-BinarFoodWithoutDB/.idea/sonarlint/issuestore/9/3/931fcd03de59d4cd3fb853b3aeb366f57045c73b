@@ -1,10 +1,53 @@
 
-Y
-java:S4973D"<Strings and Boxed types should be compared using "equals()".(è ˜Ì8»ÄÖ­¯1
-^
-java:S4973L"<Strings and Boxed types should be compared using "equals()".(‡‘üÿÿÿÿ8»ÄÖ­¯1
-G	java:S1061"+Replace this use of System.out by a logger.(àŸ¾Œ8™ÆÖ­¯1
-G	java:S1065"+Replace this use of System.out by a logger.(ÕÀˆë8šÆÖ­¯1
-]	java:S125o"<This block of commented-out lines of code should be removed.(éÅ¿òûÿÿÿÿ8´ûá±¯1
-G	java:S106v"+Replace this use of System.out by a logger.(×•ƒå8©ÆÖ­¯1
-G	java:S106x"+Replace this use of System.out by a logger.(Àûå 8ªÆÖ­¯1
+Q
+java:S1066"/Merge this if statement with the enclosing one.(ü¯…úÿÿÿÿ8óªìµ1
+L
+java:S1066M"/Merge this if statement with the enclosing one.(ËÍ­¾8÷ªìµ1
+L
+java:S1066X"/Merge this if statement with the enclosing one.(ËÍ­¾8ûªìµ1
+Q
+java:S1066d"/Merge this if statement with the enclosing one.( ·Ùûÿÿÿÿ8ÿªìµ1
+Q
+java:S1066n"/Merge this if statement with the enclosing one.( ·Ùûÿÿÿÿ8‚ªìµ1
+i
+java:S2259¨"FA "NullPointerException" could be thrown; "myWriter" is nullable here.(¼‚˜ûÿÿÿÿ8¯’ªìµ1
+r
+java:S3655d"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.( ·Ùûÿÿÿÿ8¯’ªìµ1
+m
+java:S3655N"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¬ª×æ8¯’ªìµ1
+r
+java:S3655 "PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ç°ğåûÿÿÿÿ8¯’ªìµ1
+m
+java:S3655e"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ğá‡š8¯’ªìµ1
+r
+java:S3655n"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.( ·Ùûÿÿÿÿ8°’ªìµ1
+m
+java:S3655M"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ËÍ­¾8°’ªìµ1
+m
+java:S3655N"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¬ª×æ8°’ªìµ1
+m
+java:S3655e"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ğá‡š8°’ªìµ1
+m
+java:S3655%"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(µ¸‘È8°’ªìµ1
+m
+java:S3655o"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ğá‡š8°’ªìµ1
+m
+java:S3655X"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ËÍ­¾8±’ªìµ1
+r
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ü¯…úÿÿÿÿ8±’ªìµ1
+m
+java:S3655Y"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¬ª×æ8±’ªìµ1
+r
+java:S3655"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ú¶ª´ûÿÿÿÿ8±’ªìµ1
+m
+java:S3655Y"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¬ª×æ8²’ªìµ1
+m
+java:S3655o"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ğá‡š8²’ªìµ1
+H
+java:S1168]"+Return an empty collection instead of null.(¥¹ï8Ş’ªìµ1
+H
+java:S1168s"+Return an empty collection instead of null.(¥¹ï8ë’ªìµ1
+H	java:S106„"+Replace this use of System.out by a logger.(àŸ¾Œ8™ÆÖ­¯1
+H	java:S106ˆ"+Replace this use of System.out by a logger.(ÕÀˆë8šÆÖ­¯1
+H	java:S106¢"+Replace this use of System.out by a logger.(×•ƒå8©ÆÖ­¯1
+H	java:S106¤"+Replace this use of System.out by a logger.(Àûå 8ªÆÖ­¯1

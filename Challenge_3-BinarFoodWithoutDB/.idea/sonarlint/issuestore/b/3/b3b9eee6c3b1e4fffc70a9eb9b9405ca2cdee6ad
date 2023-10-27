@@ -2,4 +2,14 @@
 G	java:S106 "+Replace this use of System.out by a logger.(°ËŞÈ8‹›Î­¯1
 L	java:S106$"+Replace this use of System.out by a logger.(†ï¹‹ûÿÿÿÿ8›Î­¯1
 G	java:S106'"+Replace this use of System.out by a logger.(€á‘8›Î­¯1
-L	java:S106q"+Replace this use of System.out by a logger.(Ó¾«Ñüÿÿÿÿ8¡›Î­¯1
+L	java:S106K"+Replace this use of System.out by a logger.(Ó¾«Ñüÿÿÿÿ8¡›Î­¯1
+P
+java:S1128"3Remove this unused import 'org.example.model.Data'.(½Ö€¯8öˆªìµ1
+T
+java:S1128"8Remove this unused import 'org.example.model.OrderItem'.(ˆù¦x8öˆªìµ1
+Y
+java:S1128"7Remove this unused import 'org.example.utils.Constant'.(Ÿ½ºøÿÿÿÿ8÷ˆªìµ1
+T
+java:S1128"7Remove this unused import 'org.example.view.NotesView'.(ªÌøü8÷ˆªìµ1
+T
+java:S1128"7Remove this unused import 'org.example.view.OrderView'.(ºùº“8÷ˆªìµ1
