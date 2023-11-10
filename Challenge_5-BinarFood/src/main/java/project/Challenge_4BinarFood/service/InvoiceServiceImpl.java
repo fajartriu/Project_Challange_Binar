@@ -55,8 +55,20 @@ public class InvoiceServiceImpl implements InvoiceService{
                             invoiceOrderRequest.getQuantity(), invoiceOrderRequest.getPrice(),
                             sumTotal
                     ));
+                }else{
+                    sumTotal+=invoiceOrderRequest.getTotalPrice();
+                    invoiceResponses.add(new InvoiceResponse(invoiceOrderRequest.getOrderTime().toLocalDate(), invoiceOrderRequest.getOrderTime().toLocalTime(),
+                            invoiceOrderRequest.getUsername(), invoiceOrderRequest.getProductName(),
+                            invoiceOrderRequest.getMerchantName(), invoiceOrderRequest.getDestinationAddress(),
+                            invoiceOrderRequest.isCompleted(), invoiceOrderRequest.getPrice(),
+                            invoiceOrderRequest.getQuantity(), invoiceOrderRequest.getPrice(),
+                            sumTotal
+                    ));
                 }
             }
+        }
+        else {
+            logger.info("empty");
         }
         File file = ResourceUtils.getFile("classpath:reports/InvoiceUsersTemplatesReports.jrxml");
         JasperReport jasperReport = JasperCompileManager.compileReport(file.getAbsolutePath());
