@@ -158,8 +158,8 @@ public class OrderServiceImpl implements OrderService{
     }
 
     @Override
-    public List<OrderResponse> getAllOrderWithPaginationSort(int page, int pageSize, String sortData) {
-        List<OrderDTO> allOrderDetailPaginationSort = orderDetailRepository.paginationProduct(PageRequest.of(page, pageSize, Sort.by(sortData)));
+    public List<OrderResponse> getAllOrderWithPaginationSort(int page, int pageSize, String filter) {
+        List<OrderDTO> allOrderDetailPaginationSort = orderDetailRepository.paginationProduct(PageRequest.of(page, pageSize, Sort.by(filter)));
         List<OrderResponse> orderResponses = new ArrayList<>();
         if (!allOrderDetailPaginationSort.isEmpty()){
             for (OrderDTO orderDTO: allOrderDetailPaginationSort){
