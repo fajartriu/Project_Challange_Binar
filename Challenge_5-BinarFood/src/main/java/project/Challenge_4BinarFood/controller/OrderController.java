@@ -102,38 +102,39 @@ public class OrderController {
 //        }
 //    }
 
-    @GetMapping(
+    @PostMapping(
             path = "/api/reportMerchantAllPayOrNot/{merchantId}/{format}"
     )
     public String exportReportMerchant(@PathVariable String format, @PathVariable UUID merchantId) throws JRException, FileNotFoundException {
         return invoiceService.exportReportMerchant( merchantId, format);
     }
 
-    @GetMapping(
+    @PostMapping(
             path = "/api/reportMerchantWeek/{merchantId}/{date}/{format}"
     )
     public String exportReportMerchantWeek(@PathVariable String format, @PathVariable UUID merchantId, @PathVariable LocalDate date) throws JRException, FileNotFoundException {
         return invoiceService.exportReportMerchantWeek( merchantId, format, date);
     }
 
-    @GetMapping(
+    @PostMapping(
             path = "/api/reportMerchantMonth/{merchantId}/{month}/{format}"
     )
     public String exportReportMerchantMonth(@PathVariable String format, @PathVariable UUID merchantId, @PathVariable String month) throws JRException, FileNotFoundException {
         return invoiceService.exportReportMerchantMonth( merchantId, format, month);
     }
 
-    @GetMapping(
+    @PostMapping(
             path = "/api/reportMerchantCustom/{merchantId}/{startDate}/{endDate}/{format}"
     )
     public String exportReportMerchantCustom(@PathVariable String format, @PathVariable UUID merchantId, @PathVariable LocalDate startDate, @PathVariable LocalDate endDate) throws JRException, FileNotFoundException {
         return invoiceService.exportReportMerchantCustom( merchantId, format, startDate, endDate);
     }
 
-    @GetMapping(
+    @PostMapping(
             path = "/api/reportUserInvoice/{userId}/{format}"
     )
     public String exportInvoiceUser(@PathVariable String format, @PathVariable UUID userId) throws JRException, FileNotFoundException {
         return invoiceService.exportInvoiceUser(userId, format);
     }
+
 }
