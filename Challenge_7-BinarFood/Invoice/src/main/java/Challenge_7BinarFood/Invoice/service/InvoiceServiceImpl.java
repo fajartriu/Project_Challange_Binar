@@ -1,5 +1,15 @@
-package project.Challenge_6BinarFood.service.invoice;
+package Challenge_7BinarFood.Invoice.service;
 
+import Challenge_7BinarFood.Invoice.DTO.ReportMerchantRequest;
+import Challenge_7BinarFood.Invoice.model.order.Order;
+import Challenge_7BinarFood.Invoice.model.user.User;
+import Challenge_7BinarFood.Invoice.repository.merchant.MerchantRepository;
+import Challenge_7BinarFood.Invoice.repository.order.OrderDetailRepository;
+import Challenge_7BinarFood.Invoice.repository.order.OrderRepository;
+import Challenge_7BinarFood.Invoice.repository.user.UserRepository;
+import Challenge_7BinarFood.Invoice.DTO.InvoiceOrder;
+import Challenge_7BinarFood.Invoice.DTO.InvoiceResponse;
+import Challenge_7BinarFood.Invoice.DTO.ReportMerchantResponse;
 import lombok.RequiredArgsConstructor;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
@@ -11,38 +21,26 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
 import org.springframework.web.server.ResponseStatusException;
-import project.Challenge_6BinarFood.dto.data.InvoiceOrder;
-import project.Challenge_6BinarFood.dto.request.invoice.ReportMerchantRequest;
-import project.Challenge_6BinarFood.dto.response.invoice.InvoiceResponse;
-import project.Challenge_6BinarFood.dto.response.invoice.ReportMerchantResponse;
-import project.Challenge_6BinarFood.model.order.Order;
-import project.Challenge_6BinarFood.model.user.User;
-import project.Challenge_6BinarFood.repository.merchant.MerchantRepository;
-import project.Challenge_6BinarFood.repository.order.OrderDetailRepository;
-import project.Challenge_6BinarFood.repository.order.OrderRepository;
-import project.Challenge_6BinarFood.service.merchant.MerchantServiceImpl;
-import project.Challenge_6BinarFood.service.user_auth.AuthenticationServiceImpl;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.security.Principal;
 import java.time.LocalDate;
 import java.util.*;
 
 @RequiredArgsConstructor
 @Service
 public class InvoiceServiceImpl implements InvoiceService{
-    private final static Logger logger = LoggerFactory.getLogger(MerchantServiceImpl.class);
+    private final static Logger logger = LoggerFactory.getLogger(InvoiceServiceImpl.class);
     private final MerchantRepository merchantRepository;
     private final OrderDetailRepository orderDetailRepository;
-    private final AuthenticationServiceImpl authenticationService;
+    private final UserRepository userRepository;
 
     private final OrderRepository orderRepository;
 
     @Override
-    public byte[] exportInvoiceUser(Principal principal, String reportFormat) throws FileNotFoundException, JRException {
+    public byte[] exportInvoiceUser(String user, String reportFormat) throws FileNotFoundException, JRException {
         String path = "report";
-        User idUser = authenticationService.getIdUser(principal.getName());
+        User idUser = getIdUser(user);
         List<InvoiceOrder> allUserOrderDetailInvoice = orderDetailRepository.getAllUserOrderDetailInvoice(idUser.getId());
         List<InvoiceResponse> invoiceResponses = new ArrayList<>();
 
@@ -123,8 +121,7 @@ public class InvoiceServiceImpl implements InvoiceService{
     }
 
     @Override
-    public byte[] exportReportMerchantMonth(UUID merchantId, String reportFormat, String month)
-            throws FileNotFoundException, JRException {
+    public byte[] exportReportMerchantMonth(UUID merchantId, String reportFormat, String month) throws FileNotFoundException, JRException {
         String path = "report";
         List<ReportMerchantRequest> allReportMerchant = merchantRepository.getAllReportMerchant(merchantId);
         List<ReportMerchantResponse> reportMerchantResponses = new ArrayList<>();
@@ -143,8 +140,7 @@ public class InvoiceServiceImpl implements InvoiceService{
     }
 
     @Override
-    public byte[] exportReportMerchantCustom(UUID merchantId, String reportFormat, LocalDate startDate, LocalDate endDate)
-            throws FileNotFoundException, JRException {
+    public byte[] exportReportMerchantCustom(UUID merchantId, String reportFormat, LocalDate startDate, LocalDate endDate) throws FileNotFoundException, JRException {
         String path = "report";
         List<ReportMerchantRequest> allReportMerchant = merchantRepository.getAllReportMerchant(merchantId);
         List<ReportMerchantResponse> reportMerchantResponses = new ArrayList<>();
@@ -174,7 +170,7 @@ public class InvoiceServiceImpl implements InvoiceService{
     }
 
     @Override
-    public byte[] generateReport(List<ReportMerchantResponse> report, String reportFormat) throws FileNotFoundException, JRException{
+    public byte[] generateReport(List<ReportMerchantResponse> report, String reportFormat) throws FileNotFoundException, JRException {
         JasperReport jasperReport;
 
         try {
@@ -210,7 +206,7 @@ public class InvoiceServiceImpl implements InvoiceService{
     }
 
     @Override
-    public byte[] generateReportUser(List<InvoiceResponse> report, String reportFormat) throws FileNotFoundException, JRException{
+    public byte[] generateReportUser(List<InvoiceResponse> report, String reportFormat) throws FileNotFoundException, JRException {
         JasperReport jasperReport;
 
         try {
@@ -262,8 +258,8 @@ public class InvoiceServiceImpl implements InvoiceService{
     }
 
     @Override
-    public List<InvoiceResponse> invoiceOrderByUser(String token){
-        User idUser = authenticationService.getIdUser(token);
+    public List<InvoiceResponse> invoiceOrderByUser(String token) {
+        User idUser = getIdUser(token);
         List<InvoiceOrder> allUserOrderDetailInvoice = orderDetailRepository.getAllUserOrderDetailInvoice(idUser.getId());
         List<InvoiceResponse> invoiceResponses = new ArrayList<>();
 
@@ -298,42 +294,9 @@ public class InvoiceServiceImpl implements InvoiceService{
         return invoiceResponses;
     }
 
-//    @Override
-//    public List<InvoiceResponse> invoiceOrderByUser(Principal principal){
-//        User idUser = authenticationService.getIdUser(principal.getName());
-//        List<InvoiceOrder> allUserOrderDetailInvoice = orderDetailRepository.getAllUserOrderDetailInvoice(idUser.getId());
-//        List<InvoiceResponse> invoiceResponses = new ArrayList<>();
-//
-//        if (!allUserOrderDetailInvoice.isEmpty()){
-//            Double sumTotal = 0.0;
-//            for (InvoiceOrder invoiceOrderRequest : allUserOrderDetailInvoice) {
-//                if (!invoiceOrderRequest.isCompleted()){
-//                    updateComplete(invoiceOrderRequest.getOrderId());
-//                    sumTotal+=invoiceOrderRequest.getTotalPrice();
-//                    invoiceResponses.add(new InvoiceResponse(invoiceOrderRequest.getOrderTime().toLocalDate(), invoiceOrderRequest.getOrderTime().toLocalTime(),
-//                            invoiceOrderRequest.getUsername(), invoiceOrderRequest.getProductName(),
-//                            invoiceOrderRequest.getMerchantName(), invoiceOrderRequest.getDestinationAddress(),
-//                            true, invoiceOrderRequest.getPrice(),
-//                            invoiceOrderRequest.getQuantity(), invoiceOrderRequest.getPrice(),
-//                            sumTotal
-//                    ));
-//                }else{
-//                    sumTotal+=invoiceOrderRequest.getTotalPrice();
-//                    invoiceResponses.add(new InvoiceResponse(invoiceOrderRequest.getOrderTime().toLocalDate(), invoiceOrderRequest.getOrderTime().toLocalTime(),
-//                            invoiceOrderRequest.getUsername(), invoiceOrderRequest.getProductName(),
-//                            invoiceOrderRequest.getMerchantName(), invoiceOrderRequest.getDestinationAddress(),
-//                            invoiceOrderRequest.isCompleted(), invoiceOrderRequest.getPrice(),
-//                            invoiceOrderRequest.getQuantity(), invoiceOrderRequest.getPrice(),
-//                            sumTotal
-//                    ));
-//                }
-//            }
-//        }
-//        else {
-//            logger.info("empty");
-//        }
-//        return invoiceResponses;
-//    }
-
-
+    @Override
+    public User getIdUser(String name) {
+        return userRepository.findUserByEmail(name).orElseThrow(() ->
+                new ResponseStatusException(HttpStatus.NOT_FOUND, "User not found with this email: " + name));
+    }
 }
