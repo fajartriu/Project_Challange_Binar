@@ -1,23 +1,21 @@
 package project.Challenge_6BinarFood.controller;
 
+import jakarta.servlet.http.HttpServletRequest;
 import lombok.RequiredArgsConstructor;
 import net.sf.jasperreports.engine.JRException;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.Resource;
-import org.springframework.http.ContentDisposition;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import project.Challenge_6BinarFood.dto.response.invoice.InvoiceResponse;
+import project.Challenge_6BinarFood.dto.response.user.ResponseHandler;
 import project.Challenge_6BinarFood.service.invoice.InvoiceService;
 
 import java.io.FileNotFoundException;
 import java.security.Principal;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.UUID;
 
 @RequiredArgsConstructor
@@ -110,4 +108,25 @@ public class InvoiceController {
                                 .build().toString())
                 .body(resource);
     }
+
+
+    @GetMapping(
+            path = "/userOrderByUser"
+    )
+//    @PreAuthorize("hasRole('CUSTOMER')")
+    public ResponseEntity<?> invoiceUser(String token){
+//        token = "choirachma@gmail.com";
+        List<InvoiceResponse> invoiceResponses = invoiceService.invoiceOrderByUser(token);
+        return ResponseHandler.generateResponse("success", invoiceResponses, null, HttpStatus.OK);
+    }
+
+//    @GetMapping(
+//            path = "/userOrderByUser"
+//    )
+//    @PreAuthorize("hasRole('CUSTOMER')")
+//    public ResponseEntity<?> invoiceUser(HttpServletRequest request){
+////        token = "choirachma@gmail.com";
+//        List<InvoiceResponse> invoiceResponses = invoiceService.invoiceOrderByUser(request);
+//        return ResponseHandler.generateResponse("success", invoiceResponses, null, HttpStatus.OK);
+//    }
 }

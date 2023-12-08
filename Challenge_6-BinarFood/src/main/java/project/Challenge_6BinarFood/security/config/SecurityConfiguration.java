@@ -64,7 +64,8 @@ public class SecurityConfiguration {
                                         .requestMatchers(POST,"/api/v1/invoice/reportMerchantWeek/{merchantId}/{date}/{format}").hasRole("MERCHANT")
                                         .requestMatchers(POST,"/api/v1/invoice/reportMerchantMonth/{merchantId}/{month}/{format}").hasRole("MERCHANT")
                                         .requestMatchers(POST,"/api/v1/invoice/reportMerchantCustom/{merchantId}/{startDate}/{endDate}/{format}").hasRole("MERCHANT")
-                                        .requestMatchers(POST,"/api/v1/invoice/reportUserInvoice/{userId}/{format}").hasRole("CUSTOMER")
+                                        .requestMatchers(POST,"/api/v1/invoice/reportUserInvoice/{format}").hasRole("CUSTOMER")
+                                        .requestMatchers(GET,"/api/v1/invoice/userOrderByUser").permitAll()
                                         .anyRequest().authenticated()
                 );
         http.authenticationProvider(applicationConfig.authenticationProvider());

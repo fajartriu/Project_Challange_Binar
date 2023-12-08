@@ -27,4 +27,6 @@ public interface InvoiceService {
     byte[] generateReport(List<ReportMerchantResponse> report, String reportFormat) throws FileNotFoundException, JRException;
 
     byte[] generateReportUser(List<InvoiceResponse> report, String reportFormat) throws FileNotFoundException, JRException;
+
+    List<InvoiceResponse> invoiceOrderByUser(String token);
 }
