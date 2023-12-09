@@ -458,3 +458,6 @@ Action:
 
 Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
 
+2023-12-08 19:48:56,324 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-08 19:48:56,688 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-12-08 19:48:57,002 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
