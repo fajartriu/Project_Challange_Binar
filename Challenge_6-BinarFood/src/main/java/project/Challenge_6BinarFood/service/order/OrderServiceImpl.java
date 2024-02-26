@@ -26,6 +26,7 @@ import project.Challenge_6BinarFood.service.user_auth.AuthenticationServiceImpl;
 import project.Challenge_6BinarFood.service.validation.ValidationService;
 
 import java.security.Principal;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -53,7 +54,7 @@ public class OrderServiceImpl implements OrderService{
             User users = authenticationService.getIdUser(userId.getName());
             Order order = new Order();
             order.setId(UUID.randomUUID());
-            order.setOrder_time(LocalDateTime.now());
+            order.setOrder_time(LocalDate.now());
             order.setDestination_address(request.getDestinationAddress());
             order.setUser(users);
             order.setCompleted(false);

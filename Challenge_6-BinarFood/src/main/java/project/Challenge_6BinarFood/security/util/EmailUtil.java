@@ -39,5 +39,6 @@ public class EmailUtil {
         """.formatted(email, otp), true);
 
         javaMailSender.send(mimeMessage);
+
     }
 }

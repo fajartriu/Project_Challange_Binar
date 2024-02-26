@@ -2,6 +2,7 @@ package project.Challenge_6BinarFood.dto.response.order;
 
 import lombok.*;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Data
@@ -11,7 +12,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Builder
 public class OrderResponse {
-    private LocalDateTime orderTime;
+    private LocalDate orderTime;
     private String username;
     private String productName;
     private String merchantName;

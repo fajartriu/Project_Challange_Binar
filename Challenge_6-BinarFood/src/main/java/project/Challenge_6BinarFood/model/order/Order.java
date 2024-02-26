@@ -5,6 +5,7 @@ import jakarta.validation.constraints.Size;
 import lombok.*;
 import project.Challenge_6BinarFood.model.user.User;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
@@ -20,7 +21,7 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
-    private LocalDateTime order_time;
+    private LocalDate order_time;
     @Size(max = 100)
     private String destination_address;
     private boolean completed;

@@ -5,13 +5,14 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Data
 @AllArgsConstructor
 @Builder
 public class OrderDTO {
-    private LocalDateTime orderTime;
+    private LocalDate orderTime;
     @Size(max = 50)
     private String username;
     @Size(max = 50)
